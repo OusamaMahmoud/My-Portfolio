@@ -1,35 +1,35 @@
 import React from 'react';
 import { Briefcase } from 'lucide-react';
 
-const Experience = () => {
+const Skills = () => {
   const experiences = [
     {
-      company: "Pixels Peak Studio",
+      company: "",
       position: "Senior Android Developer",
-      period: "Jan 2024 – present",
-      description: "Managed the development and maintenance of the Womniz app, enabling product sales and store creation for merchants. ",
-      technologies: ["Kotlin", " Clean Architecture " , " Payment Gateway " , " Firebase Real Time  and Notifications" , " architecture used is MVVM " , "API Services"]
+      period: "",
+      description: "Led the development of multiple successful apps with over 1M+ downloads. Implemented CI/CD pipelines and mentored junior developers.",
+      technologies: ["Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture"]
     },
     {
-      company: "Mobile Solutions Ltd",
+      company: "",
       position: "Android Developer",
-      period: "2019 - 2021",
+      period: "",
       description: "Developed and maintained multiple Android applications. Improved app performance by 40% through optimization techniques.",
       technologies: ["Java", "Kotlin", "RxJava", "Room DB"]
     },
     {
-      company: "StartUp Mobile",
+      company: "",
       position: "Junior Android Developer",
-      period: "2018 - 2019",
+      period: "",
       description: "Contributed to the development of innovative mobile applications. Collaborated with cross-functional teams.",
       technologies: ["Java", "SQLite", "REST APIs"]
     }
   ];
 
   return (
-    <section id="experience" className="py-20 bg-black">
+    <section id="skills" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl text-white font-bold text-center mb-12">Work Experience</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Professional Skills</h2>
         <div className="max-w-3xl mx-auto">
           {experiences.map((exp, index) => (
             <div key={index} className="mb-8 relative">
@@ -64,4 +64,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;

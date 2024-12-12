@@ -16,6 +16,7 @@ const Header = () => {
             <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
             <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
             <a href="#experience" className="text-gray-600 hover:text-gray-900">Experience</a>
+            <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
           </nav>
 
@@ -26,7 +27,7 @@ const Header = () => {
             <a href="https://linkedin.com" className="text-gray-600 hover:text-gray-900">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:your.email@example.com" className="text-gray-600 hover:text-gray-900">
+            <a href="mailto:ahmedelaraby11.94@gmail.com" className="text-gray-600 hover:text-gray-900">
               <Mail size={20} />
             </a>
           </div>
@@ -48,6 +49,7 @@ const Header = () => {
               <a href="#about" className="text-gray-600 hover:text-gray-900">About</a>
               <a href="#projects" className="text-gray-600 hover:text-gray-900">Projects</a>
               <a href="#experience" className="text-gray-600 hover:text-gray-900">Experience</a>
+              <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
               <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
             </div>
           </nav>

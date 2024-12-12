@@ -4,7 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Fitness Tracker Pro",
+      title: "Womniz",
       description: "A comprehensive fitness tracking app with workout plans, progress monitoring, and social features.",
       image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&q=80&w=800",
       tech: ["Kotlin", "MVVM", "Room DB", "WorkManager"],
@@ -30,9 +30,9 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">Featured Projects</h2>
+        <h2 className="text-4xl text-white font-bold text-center mb-12">Featured Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">

@@ -6,7 +6,7 @@ const contactItems: ContactInfoItem[] = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'your.email@example.com',
+    value: 'ahmedelaraby11.94@gmail.com',
     href: 'mailto:your.email@example.com',
   },
   {

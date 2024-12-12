@@ -1,16 +1,21 @@
-import React from 'react';
-import { ArrowDown } from 'lucide-react';
+import React from "react";
+import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 to-indigo-50">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br bg-black"
+    >
       <div className="container mx-auto px-4 py-20">
         <div className="text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Android Developer
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Crafting exceptional mobile experiences with native Android development
+          <p className="text-xl md:text-2xl text-white mb-8">
+            Experienced Android developer skilled in Kotlin, Java, and Jetpack
+            Compose. Focused on creating user-friendly apps and optimizing
+            performance while staying updated with the latest technologies.
           </p>
           <div className="flex justify-center space-x-4">
             <a
